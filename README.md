@@ -64,8 +64,8 @@ Descripción de quiénes somos, misión, visión y propósito de la Comunidad de
 ### Clonar el repositorio
 
 ```bash
-git clone https://github.com/comunidad-oraculo/web.git
-cd web
+git clone https://github.com/Comunidad-del-Oraculo/officialweb
+cd officialweb
 ```
 
 ### Instalar dependencias
