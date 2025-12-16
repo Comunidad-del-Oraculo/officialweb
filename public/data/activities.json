@@ -1,0 +1,74 @@
+[
+  {
+    "id": "charla-introduccion-arquitectura-limpia",
+    "title": "Introducción a la Arquitectura Limpia",
+    "type": "charla",
+    "status": "upcoming",
+    "featured": true,
+    "description": "Una charla introductoria donde se explicarán los principios de la arquitectura limpia y cómo aplicarlos en proyectos modernos con JavaScript, Node.js y Next.js.",
+    "longDescription": "En esta charla exploraremos los fundamentos de la arquitectura limpia, sus capas, la importancia de la independencia de frameworks y cómo aplicarla en proyectos reales. Además, veremos casos prácticos con Next.js y Node.js basados en experiencias de la Comunidad del Oráculo.",
+    "speaker": {
+      "name": "Pedro Pablo Perez",
+      "role": "Fullstack Developer • Líder Técnico en Comunidad del Oráculo",
+      "avatar": "/images/developers/pedro.jpg",
+      "profileId": "pedro-pablo-perez"
+    },
+    "date": {
+      "start": "2026-01-20T20:00:00",
+      "end": "2026-01-20T21:30:00",
+      "timezone": "GMT-3"
+    },
+    "location": {
+      "type": "online",
+      "platform": "Google Meet",
+      "url": "https://meet.google.com/abc-defg-hij"
+    },
+    "tags": [
+      "Arquitectura Limpia",
+      "Next.js",
+      "Buenas Prácticas",
+      "JavaScript"
+    ],
+    "requirements": [
+      "Conocimientos básicos de JavaScript",
+      "Tener instalado Node.js (opcional)",
+      "Ganas de aprender"
+    ],
+    "agenda": [
+      {
+        "time": "20:00",
+        "topic": "Bienvenida y presentación"
+      },
+      {
+        "time": "20:10",
+        "topic": "Qué es la arquitectura limpia"
+      },
+      {
+        "time": "20:30",
+        "topic": "Separación de capas y responsabilidad"
+      },
+      {
+        "time": "20:50",
+        "topic": "Ejemplo práctico en Next.js"
+      },
+      {
+        "time": "21:10",
+        "topic": "Preguntas y debate"
+      }
+    ],
+    "resources": [
+      {
+        "name": "Diapositivas de la charla",
+        "url": "https://example.com/slides.pdf"
+      },
+      {
+        "name": "Repositorio de ejemplo",
+        "url": "https://github.com/comunidad-oraculo/clean-architecture-example"
+      }
+    ],
+    "communityProject": false,
+    "registrationRequired": true,
+    "registrationUrl": "https://comunidad-oraculo.com/inscripcion/arquitectura-limpia",
+    "updatedAt": "2025-12-01"
+  }
+]
