@@ -21,6 +21,9 @@ export default function Home() {
       <div id="activitieslist">
         <ActivitiesList />
       </div>
+      <div id="contactanos">
+        <ActivitiesList />
+      </div>
       <div id="footer">
         <Footer />
       </div>

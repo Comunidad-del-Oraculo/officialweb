@@ -34,6 +34,18 @@ export const Navbar = () => {
             >
               Acerca
             </a>
+            <a 
+            onClick={() => scrollToSection('activitieslist')}
+            className="text-gray-700 hover:text-[#8c52ff] cursor-pointer transition-colors duration-200 font-medium"
+          >
+            Actividades
+          </a>
+          <a 
+          onClick={() => scrollToSection('contactanos')}
+          className="text-gray-700 hover:text-[#8c52ff] cursor-pointer transition-colors duration-200 font-medium"
+        >
+          Contactanos
+        </a>
           </div>
         </div>
       </div>
