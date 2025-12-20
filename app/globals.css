@@ -1,11 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-  --color-background: #1a1a1a;
-  --color-foreground: #ffffff;
+  --color-foreground: #1a1a1a;
+  --color-background: #ffffff;
   --color-accent: #8c52ff;
 }
-
+html {
+  scroll-behavior: smooth;
+}
 body {
-  @apply bg-background text-foreground hover:text-accent;
+  @apply bg-background text-gray-600;
 }
