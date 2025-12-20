@@ -1,9 +1,404 @@
 [
   {
-    "username": "pedro-pablo-perez",
-    "name": "Pedro Pablo Perez",
+    "username": "pedro-pablo-perez-1",
+    "name": "Pedro Pablo Perez 1",
     "role": "Fullstack Developer",
-    "avatar": "/images/developers/pedro-pablo-perez.jpg",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
+    "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
+    "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
+    "location": {
+      "city": "Villa Mercedes",
+      "country": "Argentina"
+    },
+    "experienceYears": 5,
+    "skills": {
+      "languages": ["JavaScript", "TypeScript", "PHP", "SQL"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Zustand",
+        "Redux",
+        "Vue"
+      ],
+      "backend": ["Node.js", "Express", "NestJS", "Prisma"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+      "devops": ["Docker", "Vercel", "GitHub Actions"],
+      "uiux": ["Figma", "Design Systems", "UX Research"]
+    },
+    "experience": [
+      {
+        "company": "Comunidad del Oráculo",
+        "position": "Líder Técnico",
+        "start": "2023-02-02",
+        "end": "Present",
+        "description": "Lidero la definición técnica y arquitectura de proyectos comunitarios utilizando Next.js y Node.js."
+      },
+      {
+        "company": "Freelancer",
+        "position": "Desarrollador Fullstack",
+        "start": "2020-01-01",
+        "end": "2023-01-01",
+        "description": "Desarrollo de aplicaciones web y móviles, optimización de SEO y creación de UX/UI centrada en el usuario."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestor Clínico Integral",
+        "description": "Sistema completo para la gestión de clínicas utilizando Next.js, Prisma y PostgreSQL.",
+        "technologies": ["Next.js", "TailwindCSS", "Zustand", "PostgreSQL"],
+        "url": "https://example.com"
+      },
+      {
+        "name": "Reproductor de Música Desktop",
+        "description": "Aplicación Electron + React para gestionar y reproducir archivos MP3 desde el disco local.",
+        "technologies": ["Electron", "React", "SQLite", "TailwindCSS"],
+        "url": "https://example.com"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React Avanzado",
+        "organization": "Udemy",
+        "year": 2022
+      },
+      {
+        "title": "Clean Architecture & Domain Driven Design",
+        "organization": "Platzi",
+        "year": 2023
+      }
+    ],
+    "social": {
+      "github": "https://github.com/usuario",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "twitter": "https://twitter.com/usuario",
+      "portfolio": "https://misitio.dev"
+    },
+    "tags": ["Next.js", "Fullstack", "Arquitectura Limpia", "React", "Node.js"],
+    "availability": "Freelance only",
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "username": "pedro-pablo-perez-2",
+    "name": "Pedro Pablo Perez 2",
+    "role": "Fullstack Developer",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
+    "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
+    "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
+    "location": {
+      "city": "Villa Mercedes",
+      "country": "Argentina"
+    },
+    "experienceYears": 5,
+    "skills": {
+      "languages": ["JavaScript", "TypeScript", "PHP", "SQL"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Zustand",
+        "Redux",
+        "Vue"
+      ],
+      "backend": ["Node.js", "Express", "NestJS", "Prisma"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+      "devops": ["Docker", "Vercel", "GitHub Actions"],
+      "uiux": ["Figma", "Design Systems", "UX Research"]
+    },
+    "experience": [
+      {
+        "company": "Comunidad del Oráculo",
+        "position": "Líder Técnico",
+        "start": "2023-02-02",
+        "end": "Present",
+        "description": "Lidero la definición técnica y arquitectura de proyectos comunitarios utilizando Next.js y Node.js."
+      },
+      {
+        "company": "Freelancer",
+        "position": "Desarrollador Fullstack",
+        "start": "2020-01-01",
+        "end": "2023-01-01",
+        "description": "Desarrollo de aplicaciones web y móviles, optimización de SEO y creación de UX/UI centrada en el usuario."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestor Clínico Integral",
+        "description": "Sistema completo para la gestión de clínicas utilizando Next.js, Prisma y PostgreSQL.",
+        "technologies": ["Next.js", "TailwindCSS", "Zustand", "PostgreSQL"],
+        "url": "https://example.com"
+      },
+      {
+        "name": "Reproductor de Música Desktop",
+        "description": "Aplicación Electron + React para gestionar y reproducir archivos MP3 desde el disco local.",
+        "technologies": ["Electron", "React", "SQLite", "TailwindCSS"],
+        "url": "https://example.com"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React Avanzado",
+        "organization": "Udemy",
+        "year": 2022
+      },
+      {
+        "title": "Clean Architecture & Domain Driven Design",
+        "organization": "Platzi",
+        "year": 2023
+      }
+    ],
+    "social": {
+      "github": "https://github.com/usuario",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "twitter": "https://twitter.com/usuario",
+      "portfolio": "https://misitio.dev"
+    },
+    "tags": ["Next.js", "Fullstack", "Arquitectura Limpia", "React", "Node.js"],
+    "availability": "Not available",
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "username": "pedro-pablo-perez-3",
+    "name": "Pedro Pablo Perez 3",
+    "role": "Fullstack Developer",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
+    "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
+    "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
+    "location": {
+      "city": "Villa Mercedes",
+      "country": "Argentina"
+    },
+    "experienceYears": 5,
+    "skills": {
+      "languages": ["JavaScript", "TypeScript", "PHP", "SQL"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Zustand",
+        "Redux",
+        "Vue"
+      ],
+      "backend": ["Node.js", "Express", "NestJS", "Prisma"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+      "devops": ["Docker", "Vercel", "GitHub Actions"],
+      "uiux": ["Figma", "Design Systems", "UX Research"]
+    },
+    "experience": [
+      {
+        "company": "Comunidad del Oráculo",
+        "position": "Líder Técnico",
+        "start": "2023-02-02",
+        "end": "Present",
+        "description": "Lidero la definición técnica y arquitectura de proyectos comunitarios utilizando Next.js y Node.js."
+      },
+      {
+        "company": "Freelancer",
+        "position": "Desarrollador Fullstack",
+        "start": "2020-01-01",
+        "end": "2023-01-01",
+        "description": "Desarrollo de aplicaciones web y móviles, optimización de SEO y creación de UX/UI centrada en el usuario."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestor Clínico Integral",
+        "description": "Sistema completo para la gestión de clínicas utilizando Next.js, Prisma y PostgreSQL.",
+        "technologies": ["Next.js", "TailwindCSS", "Zustand", "PostgreSQL"],
+        "url": "https://example.com"
+      },
+      {
+        "name": "Reproductor de Música Desktop",
+        "description": "Aplicación Electron + React para gestionar y reproducir archivos MP3 desde el disco local.",
+        "technologies": ["Electron", "React", "SQLite", "TailwindCSS"],
+        "url": "https://example.com"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React Avanzado",
+        "organization": "Udemy",
+        "year": 2022
+      },
+      {
+        "title": "Clean Architecture & Domain Driven Design",
+        "organization": "Platzi",
+        "year": 2023
+      }
+    ],
+    "social": {
+      "github": "https://github.com/usuario",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "twitter": "https://twitter.com/usuario",
+      "portfolio": "https://misitio.dev"
+    },
+    "tags": ["Next.js", "Fullstack", "Arquitectura Limpia", "React", "Node.js"],
+    "availability": "Part-time",
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "username": "pedro-pablo-perez-4",
+    "name": "Pedro Pablo Perez 4",
+    "role": "Fullstack Developer",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
+    "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
+    "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
+    "location": {
+      "city": "Villa Mercedes",
+      "country": "Argentina"
+    },
+    "experienceYears": 5,
+    "skills": {
+      "languages": ["JavaScript", "TypeScript", "PHP", "SQL"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Zustand",
+        "Redux",
+        "Vue"
+      ],
+      "backend": ["Node.js", "Express", "NestJS", "Prisma"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+      "devops": ["Docker", "Vercel", "GitHub Actions"],
+      "uiux": ["Figma", "Design Systems", "UX Research"]
+    },
+    "experience": [
+      {
+        "company": "Comunidad del Oráculo",
+        "position": "Líder Técnico",
+        "start": "2023-02-02",
+        "end": "Present",
+        "description": "Lidero la definición técnica y arquitectura de proyectos comunitarios utilizando Next.js y Node.js."
+      },
+      {
+        "company": "Freelancer",
+        "position": "Desarrollador Fullstack",
+        "start": "2020-01-01",
+        "end": "2023-01-01",
+        "description": "Desarrollo de aplicaciones web y móviles, optimización de SEO y creación de UX/UI centrada en el usuario."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestor Clínico Integral",
+        "description": "Sistema completo para la gestión de clínicas utilizando Next.js, Prisma y PostgreSQL.",
+        "technologies": ["Next.js", "TailwindCSS", "Zustand", "PostgreSQL"],
+        "url": "https://example.com"
+      },
+      {
+        "name": "Reproductor de Música Desktop",
+        "description": "Aplicación Electron + React para gestionar y reproducir archivos MP3 desde el disco local.",
+        "technologies": ["Electron", "React", "SQLite", "TailwindCSS"],
+        "url": "https://example.com"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React Avanzado",
+        "organization": "Udemy",
+        "year": 2022
+      },
+      {
+        "title": "Clean Architecture & Domain Driven Design",
+        "organization": "Platzi",
+        "year": 2023
+      }
+    ],
+    "social": {
+      "github": "https://github.com/usuario",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "twitter": "https://twitter.com/usuario",
+      "portfolio": "https://misitio.dev"
+    },
+    "tags": ["Next.js", "Fullstack", "Arquitectura Limpia", "React", "Node.js"],
+    "availability": "Open to work",
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "username": "pedro-pablo-perez-5",
+    "name": "Pedro Pablo Perez 5",
+    "role": "Fullstack Developer",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
+    "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
+    "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
+    "location": {
+      "city": "Villa Mercedes",
+      "country": "Argentina"
+    },
+    "experienceYears": 5,
+    "skills": {
+      "languages": ["JavaScript", "TypeScript", "PHP", "SQL"],
+      "frontend": [
+        "React",
+        "Next.js",
+        "TailwindCSS",
+        "Zustand",
+        "Redux",
+        "Vue"
+      ],
+      "backend": ["Node.js", "Express", "NestJS", "Prisma"],
+      "databases": ["PostgreSQL", "MySQL", "MongoDB", "SQLite"],
+      "devops": ["Docker", "Vercel", "GitHub Actions"],
+      "uiux": ["Figma", "Design Systems", "UX Research"]
+    },
+    "experience": [
+      {
+        "company": "Comunidad del Oráculo",
+        "position": "Líder Técnico",
+        "start": "2023-02-02",
+        "end": "Present",
+        "description": "Lidero la definición técnica y arquitectura de proyectos comunitarios utilizando Next.js y Node.js."
+      },
+      {
+        "company": "Freelancer",
+        "position": "Desarrollador Fullstack",
+        "start": "2020-01-01",
+        "end": "2023-01-01",
+        "description": "Desarrollo de aplicaciones web y móviles, optimización de SEO y creación de UX/UI centrada en el usuario."
+      }
+    ],
+    "projects": [
+      {
+        "name": "Gestor Clínico Integral",
+        "description": "Sistema completo para la gestión de clínicas utilizando Next.js, Prisma y PostgreSQL.",
+        "technologies": ["Next.js", "TailwindCSS", "Zustand", "PostgreSQL"],
+        "url": "https://example.com"
+      },
+      {
+        "name": "Reproductor de Música Desktop",
+        "description": "Aplicación Electron + React para gestionar y reproducir archivos MP3 desde el disco local.",
+        "technologies": ["Electron", "React", "SQLite", "TailwindCSS"],
+        "url": "https://example.com"
+      }
+    ],
+    "certifications": [
+      {
+        "title": "React Avanzado",
+        "organization": "Udemy",
+        "year": 2022
+      },
+      {
+        "title": "Clean Architecture & Domain Driven Design",
+        "organization": "Platzi",
+        "year": 2023
+      }
+    ],
+    "social": {
+      "github": "https://github.com/usuario",
+      "linkedin": "https://linkedin.com/in/usuario",
+      "twitter": "https://twitter.com/usuario",
+      "portfolio": "https://misitio.dev"
+    },
+    "tags": ["Next.js", "Fullstack", "Arquitectura Limpia", "React", "Node.js"],
+    "availability": "Open to work",
+    "updatedAt": "2025-12-01"
+  },
+  {
+    "username": "pedro-pablo-perez-6",
+    "name": "Pedro Pablo Perez 6",
+    "role": "Fullstack Developer",
+    "avatar": "/images/developers/pedro-pablo-perez.webp",
     "shortBio": "Desarrollador fullstack con experiencia en Next.js, React, Node.js y arquitectura limpia. Enfocado en soluciones escalables y rendimiento.",
     "about": "Soy un desarrollador apasionado por crear aplicaciones web robustas y eficientes. Me especializo en Next.js, arquitecturas modulares y optimización de rendimiento. Me gusta trabajar en equipo, compartir conocimiento y participar en proyectos comunitarios.",
     "location": {
