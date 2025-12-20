@@ -1,4 +1,5 @@
 import developers from "@/data/developers.json"
+import { Developer } from "../types"
 
 interface Location {
     city?: string,
@@ -11,7 +12,7 @@ export const getAllDevelopers = () => {
     return developers
 }
 
-export const getByUsername = (username: string) => {
+export const getDeveloperByUsername = (username: string) => {
     return developers.find(developer => developer.username === username)
 }
 
@@ -26,7 +27,7 @@ export const filterDevelopers = (filtrers: Location) => {
         if (city && developer.location.city.toLowerCase() !== city.toLowerCase()) {
             return false
         }
-        
+
         if (country && developer.location.country.toLowerCase() !== country.toLowerCase()) {
             return false
         }
@@ -40,4 +41,11 @@ export const filterDevelopers = (filtrers: Location) => {
         return true
     })
 
+}
+
+export const getUniqueValues = (
+    developers: Developer[],
+    extractor: (dev: Developer) => string | string[]
+) => {
+    return Array.from(new Set(developers.flatMap(dev => extractor(dev)))).sort()
 }
