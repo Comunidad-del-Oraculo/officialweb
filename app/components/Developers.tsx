@@ -20,7 +20,7 @@ export const Developers = () => {
           .map((developer) => (
             <div
               key={developer.username}
-              className="flex flex-col gap-2 bg-white rounded-2xl py-8 text-center shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 border border-gray-200 cursor-default group"
+              className="flex flex-col gap-2 bg-white rounded-2xl py-8 text-center shadow-md hover:shadow-xl transition-all duration-300 border border-gray-200 cursor-default group"
             >
               <Image
                 src={developer.avatar}
@@ -38,8 +38,9 @@ export const Developers = () => {
               </p>
 
               <p className="text-sm text-gray-600">
-                {developer.location.country}{" "}
-                {getCountryFlag(developer.location.country)}
+                {developer.location.country +
+                  " " +
+                  getCountryFlag(developer.location.country)}
               </p>
             </div>
           ))}
