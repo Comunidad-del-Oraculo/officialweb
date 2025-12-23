@@ -1,6 +1,10 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: "/.",
+  assetPrefix: "/.",
+
   images: {
     remotePatterns: [
       {
@@ -10,11 +14,8 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  experimental: {
-    turbo: {
-      root: '.',
-    },
-  },
+  trailingSlash: true,
+  reactStrictMode: true,
 };
 
 export default nextConfig;
