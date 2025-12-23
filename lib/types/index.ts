@@ -18,30 +18,26 @@ export interface Developer {
         devops: string[],
         uiux: string[]
     },
-    experience: [
-        {
-            company: string,
-            position: string,
-            start: string,
-            end: string,
-            description: string
-        }
-    ],
-    projects: [
-        {
-            name: string,
-            description: string,
-            technologies: string[],
-            url: string
-        }
-    ],
-    certifications: [
-        {
-            title: string,
-            organization: string,
-            year: number
-        }
-    ],
+    experience: {
+        company: string;
+        position: string;
+        start: string;
+        end: string;
+        description: string;
+    }[],
+    projects:
+    {
+        name: string,
+        description: string,
+        technologies: string[],
+        url: string
+    }[],
+    certifications:
+    {
+        title: string,
+        organization: string,
+        year: number
+    }[],
     social: {
         github: string,
         linkedin: string,
